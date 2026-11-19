@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: suppression-lab
+spec:
+  containers:
+    - name: lab
+      image: busybox:1.36
+      env:
+        - name: DB_PASSWORD
+          value: "R8vQ4mT7kL2xP9sD6"
