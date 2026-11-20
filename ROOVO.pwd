@@ -40,3 +40,17 @@ checkid enabled
 # STEP 2: Live Secret (Matches the exact same rule: aws-access-key-id)
 # =====================================================================
 AWS_ACCESS_KEY_ID = "AKIA2dfsdfdfsfsdfsdfsffsfggvdbsd12xfsdffdsfdsf34567890ABCDEFG"
+
+until here 5 check ids: 
+
+20novemeber
+
+# =====================================================================
+# STEP 1: False Positive Candidate
+# (e.g., Check ID: aws-access-key-id)
+# =====================================================================
+# AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMP1E"
+# =====================================================================
+# STEP 2: Live Secret (Matches the exact same rule: aws-access-key-id)
+# =====================================================================
+AWS_ACCESS_KEY_ID = "AKIA234567890dfsdsferwerwgvfgvfbgfABCDEFG"
